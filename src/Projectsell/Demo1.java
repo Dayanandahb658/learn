@@ -22,6 +22,7 @@ public class Demo1
 	   driver.findElement(By.xpath("//*[@type='submit']")).click();
 	   driver.quit();
 	   driver.close();
+	   driver.close();
 }
    @DataProvider (name="logintestdata")
 public Object[][] Login() 
