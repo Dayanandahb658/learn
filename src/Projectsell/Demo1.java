@@ -21,6 +21,7 @@ public class Demo1
 	   driver.findElement(By.xpath("//*[@name='password']")).sendKeys("admin 	123");
 	   driver.findElement(By.xpath("//*[@type='submit']")).click();
 	   driver.quit();
+	   driver.close();
 }
    @DataProvider (name="logintestdata")
 public Object[][] Login() 
